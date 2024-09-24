@@ -7,6 +7,7 @@ class CfgWeapons
         descriptionShort = "Used to access all sprays";
         picture = "\UNICAN\addons\data\unican.paa";
         model = "\UNICAN\addons\data\unican.p3d";
+		ace_tagging_textColor = "FFFFFFFE";
         hiddenSelectionsTextures[] = {"\UNICAN\addons\data\unican_tex.paa"};
     };
 };
