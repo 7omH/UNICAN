@@ -1,14 +1,12 @@
-#include "script_component.hpp"
-
 class CfgPatches {
-	class ADDON {
-		name = CSTRING(component);
+	class TOMH_UNICAN {
+		name = "UNICAN";
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {"cba_main"};
 		author = "TomH";
-		url = "https://community.bistudio.com/wiki";
-		VERSION_CONFIG;
 	};
 };
+#include CfgWeapons.hpp
+#include CfgVehicles.hpp
