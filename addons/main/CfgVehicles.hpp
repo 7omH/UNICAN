@@ -28,7 +28,7 @@ class CfgVehicles {
 					textures[] = {"\UNICAN\addons\spray\OROO.paa"}; 
 					icon = "\UNICAN\addons\spray\OROO.paa";  
 				};
-				class TOMH_UNICAN_Lite_Repair {
+				class TOMH_UNICAN_Lite_Refuel {
 					displayName = "Repair";  
 					requiredItem = "TOMH_UNICAN_Lite";  
 					textures[] = {"\UNICAN\addons\spray\OORO.paa"}; 

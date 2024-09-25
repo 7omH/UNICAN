@@ -1,12 +1,13 @@
-#define TAG(Name) class TOMH_##Name##_Tag { \
-	displayName = Name; \
-	condition = true; \
-	statement = [_player, 'UNICAN\addons\spray\##Name##.paa'] call ace_tagging_fnc_tag; \
-	icon = UNICAN\addons\spray\##Name##.paa; \
-}
+#define TAG(Name) \
+	class TOMH_##Name##_Tag { \
+		displayName = #Name; \
+		condition = "true"; \
+		statement = "[_player, 'UNICAN\addons\spray\##Name.paa'] call ace_tagging_fnc_tag"; \
+		icon = "UNICAN\addons\spray\##Name.paa"; \
+	}
 class TOMH_UNICAN_A {
 	displayName = "A Station";
-	condition = true;
+	condition = "true";
 	TAG(AOOO);
 	TAG(AROO);
 	TAG(AORO);
@@ -18,7 +19,7 @@ class TOMH_UNICAN_A {
 };
 class TOMH_UNICAN_B {
 	displayName = "B Station";
-	condition = true;
+	condition = "true";
 	TAG(BOOO);
 	TAG(BROO);
 	TAG(BORO);
@@ -30,7 +31,7 @@ class TOMH_UNICAN_B {
 };
 class TOMH_UNICAN_C {
 	displayName = "C Station";
-	condition = true;
+	condition = "true";
 	TAG(COOO);
 	TAG(CROO);
 	TAG(CORO);
@@ -42,7 +43,7 @@ class TOMH_UNICAN_C {
 };
 class TOMH_UNICAN_D {
 	displayName = "D Station";
-	condition = true;
+	condition = "true";
 	TAG(DOOO);
 	TAG(DROO);
 	TAG(DORO);
@@ -54,7 +55,7 @@ class TOMH_UNICAN_D {
 };
 class TOMH_UNICAN_E {
 	displayName = "E Station";
-	condition = true;
+	condition = "true";
 	TAG(EOOO);
 	TAG(EROO);
 	TAG(EORO);
@@ -66,7 +67,7 @@ class TOMH_UNICAN_E {
 };
 class TOMH_UNICAN_F {
 	displayName = "F Station";
-	condition = true;
+	condition = "true";
 	TAG(FOOO);
 	TAG(FROO);
 	TAG(FORO);
@@ -78,28 +79,28 @@ class TOMH_UNICAN_F {
 };
 class TOMH_UNICAN_Medical {
 	displayName = "Medical";
-	condition = true;
+	condition = "true";
 	TAG(RedCross);
 	TAG(RedDiamond);
-	TAG(CAT-1);
-	TAG(CAT-2);
-	TAG(CAT-3);
-	TAG(CAT-4);
+	TAG(CAT1);
+	TAG(CAT2);
+	TAG(CAT3);
+	TAG(CAT4);
 	TAG(CCP);
 };
 class TOMH_UNICAN_EOD {
 	displayName = "EOD";
-	condition = true;
+	condition = "true";
 	TAG(Danger);
 	TAG(Clear);
 	TAG(DoubleLane);
-	TAG(5marrow);
-	TAG(10marrow);
-	TAG(20marrow);
+	TAG(arrow5m);
+	TAG(arrow10m);
+	TAG(arrow20m);
 };
 class TOMH_UNICAN_Misc {
 	displayName = "Misc.";
-	condition = true;
+	condition = "true";
 	TAG(UNILOGO);
 	TAG(TheSquido);
 	TAG(Kevin);

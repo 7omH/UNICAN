@@ -1,5 +1,4 @@
-class CfgWeapons
-{
+class CfgWeapons {
 	class ACE_SpraypaintBlack;
 	class TOMH_UNICAN: ACE_SpraypaintBlack {
         author = "TomH";
