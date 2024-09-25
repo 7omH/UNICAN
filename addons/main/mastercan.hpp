@@ -104,7 +104,7 @@ class TOMH_UNICAN_Misc {
 	displayName = "Misc.";
 	condition = "true";
 	TAG(UNILOGO);
-	TAG(TheSquido);
-	TAG(Kevin);
-	TAG(UNICOIN);
+	//TAG(TheSquido);
+	//TAG(Kevin);
+	//TAG(UNICOIN);
 };
