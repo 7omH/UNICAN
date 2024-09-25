@@ -1,9 +1,11 @@
+#define STAT(Name) [_player, '\z\UNICAN\addons\main\spray\Name.paa'] call ace_tagging_fnc_tag
+#define ICON(Name) \z\UNICAN\addons\main\spray\Name.paa
 #define TAG(Name) \
 	class TOMH_##Name##_Tag { \
 		displayName = #Name; \
 		condition = "true"; \
-		statement = "[_player, 'UNICAN\addons\spray\##Name.paa'] call ace_tagging_fnc_tag"; \
-		icon = "UNICAN\addons\spray\##Name.paa"; \
+		statement = #STAT(Name); \
+		icon = #ICON(Name); \
 	}
 class TOMH_UNICAN_A {
 	displayName = "A Station";

@@ -4,9 +4,10 @@ class CfgWeapons {
         author = "TomH";
         displayname = "UNICAN";
         descriptionShort = "Used to access all sprays";
-        picture = "\UNICAN\addons\data\unican.paa";
-        model = "\UNICAN\addons\data\unican.p3d";
+        picture = "\z\UNICAN\addons\main\data\unican.paa";
+		scope = 2;
 		ace_tagging_textColor = "FFFFFFFE";
-        hiddenSelectionsTextures[] = {"\UNICAN\addons\data\unican_tex.paa"};
+		hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {"z\UNICAN\addons\main\data\unican_co.paa"};
     };
 };
