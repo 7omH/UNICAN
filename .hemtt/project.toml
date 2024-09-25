@@ -3,11 +3,15 @@ author = "TomH"
 prefix = "unican"
 mainprefix = "z"
 [version]
-major = 0
-minor = 2
+major = 1
+minor = 0
 patch = 0
 [hemtt.launch.default]
 workshop = [
     "450814997", # CBA_A3's Workshop ID
 	"463939057", # ACE3's Workshop ID
+]
+[files]
+exclude = [
+    "*.png",
 ]
