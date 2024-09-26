@@ -7,44 +7,44 @@ class CfgVehicles {
 					displayName="UNICAN";
 					condition="('TOMH_UNICAN' in (items player))";
 					exceptions[]={};
-					icon = "\z\UNICAN\addons\main\data\unican.paa";
+					icon = "UNICAN\addons\main\data\unican.paa";
 					#include "mastercan.hpp"
 				};
 				class TOMH_UNICAN_Lite_Alpha {
 					displayName = "Alpha";  
 					requiredItem = "TOMH_UNICAN_Lite";  
-					textures[] = {"\z\UNICAN\addons\main\spray\AOOO.paa"}; 
-					icon = "\z\UNICAN\addons\main\spray\AOOO.paa";  
+					textures[] = {"UNICAN\addons\main\spray\AOOO.paa"}; 
+					icon = "UNICAN\addons\main\spray\AOOO.paa";  
 				};
 				class TOMH_UNICAN_Lite_Bravo {
 					displayName = "Bravo";  
 					requiredItem = "TOMH_UNICAN_Lite";  
-					textures[] = {"\z\UNICAN\addons\main\spray\BOOO.paa"}; 
-					icon = "\z\UNICAN\addons\main\spray\BOOO.paa";  
+					textures[] = {"UNICAN\addons\main\spray\BOOO.paa"}; 
+					icon = "UNICAN\addons\main\spray\BOOO.paa";  
 				};
 				class TOMH_UNICAN_Lite_Rearm {
 					displayName = "Rearm";  
 					requiredItem = "TOMH_UNICAN_Lite";  
-					textures[] = {"\z\UNICAN\addons\main\spray\OROO.paa"}; 
-					icon = "\z\UNICAN\addons\main\spray\OROO.paa";  
+					textures[] = {"UNICAN\addons\main\spray\OROO.paa"}; 
+					icon = "UNICAN\addons\main\spray\OROO.paa";  
 				};
 				class TOMH_UNICAN_Lite_Refuel {
 					displayName = "Repair";  
 					requiredItem = "TOMH_UNICAN_Lite";  
-					textures[] = {"\z\UNICAN\addons\main\spray\OORO.paa"}; 
-					icon = "\z\UNICAN\addons\main\spray\OORO.paa";  
+					textures[] = {"UNICAN\addons\main\spray\OORO.paa"}; 
+					icon = "UNICAN\addons\main\spray\OORO.paa";  
 				};
 				class TOMH_UNICAN_Lite_Repair {
 					displayName = "Repair";  
 					requiredItem = "TOMH_UNICAN_Lite";  
-					textures[] = {"\z\UNICAN\addons\main\spray\OOOR.paa"}; 
-					icon = "\z\UNICAN\addons\main\spray\OOOR.paa";  
+					textures[] = {"UNICAN\addons\main\spray\OOOR.paa"}; 
+					icon = "UNICAN\addons\main\spray\OOOR.paa";  
 				};
 				class TOMH_UNICAN_Lite_RedCross {
 					displayName = "Red Cross";  
 					requiredItem = "TOMH_UNICAN_Lite";  
-					textures[] = {"\z\UNICAN\addons\main\spray\RedCross.paa"}; 
-					icon = "\z\UNICAN\addons\main\spray\RedCross.paa";  
+					textures[] = {"UNICAN\addons\main\spray\RedCross.paa"}; 
+					icon = "UNICAN\addons\main\spray\RedCross.paa";  
 				};
 			};
 		};
