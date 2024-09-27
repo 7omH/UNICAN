@@ -1,5 +1,5 @@
-#define STAT(Name) [_player, 'UNICAN\addons\main\spray\Name.paa'] call ace_tagging_fnc_tag
-#define ICON(Name) UNICAN\addons\main\spray\Name.paa
+#define STAT(Name) [_player, '\unican_main\spray\Name.paa'] call ace_tagging_fnc_tag
+#define ICON(Name) \unican_main\spray\Name.paa
 #define TAG(Name) \
 	class TOMH_##Name##_Tag { \
 		displayName = #Name; \
