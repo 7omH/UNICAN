@@ -7,44 +7,44 @@ class CfgVehicles {
 					displayName="UNICAN";
 					condition="('TOMH_UNICAN' in (items player))";
 					exceptions[]={};
-					icon = "\unican_main\data\unican.paa";
+					icon = QPATHTOF(data\unican.paa);
 					#include "mastercan.hpp"
 				};
 				class TOMH_UNICAN_Lite_Alpha {
 					displayName = "Alpha";  
 					requiredItem = "TOMH_UNICAN_Lite";  
-					textures[] = {"\unican_main\spray\AOOO.paa"}; 
-					icon = "\unican_main\spray\AOOO.paa";  
+					textures[] = {QPATHTOF(spray\AOOO.paa)}; 
+					icon = QPATHTOF(spray\AOOO.paa);  
 				};
 				class TOMH_UNICAN_Lite_Bravo {
 					displayName = "Bravo";  
 					requiredItem = "TOMH_UNICAN_Lite";  
-					textures[] = {"\unican_main\spray\BOOO.paa"}; 
-					icon = "\unican_main\spray\BOOO.paa";  
+					textures[] = {QPATHTOF(spray\BOOO.paa)}; 
+					icon = QPATHTOF(spray\BOOO.paa);  
 				};
 				class TOMH_UNICAN_Lite_Rearm {
 					displayName = "Rearm";  
 					requiredItem = "TOMH_UNICAN_Lite";  
-					textures[] = {"\unican_main\spray\OROO.paa"}; 
-					icon = "\unican_main\spray\OROO.paa";  
+					textures[] = {QPATHTOF(spray\OROO.paa)}; 
+					icon = QPATHTOF(spray\OROO.paa);  
 				};
 				class TOMH_UNICAN_Lite_Refuel {
 					displayName = "Repair";  
 					requiredItem = "TOMH_UNICAN_Lite";  
-					textures[] = {"\unican_main\spray\OORO.paa"}; 
-					icon = "\unican_main\spray\OORO.paa";  
+					textures[] = {QPATHTOF(spray\OORO.paa)}; 
+					icon = QPATHTOF(spray\OORO.paa);  
 				};
 				class TOMH_UNICAN_Lite_Repair {
 					displayName = "Repair";  
 					requiredItem = "TOMH_UNICAN_Lite";  
-					textures[] = {"\unican_main\spray\OOOR.paa"}; 
-					icon = "\unican_main\spray\OOOR.paa";  
+					textures[] = {QPATHTOF(spray\OOOR.paa)}; 
+					icon = QPATHTOF(spray\OOOR.paa);  
 				};
 				class TOMH_UNICAN_Lite_RedCross {
 					displayName = "Red Cross";  
 					requiredItem = "TOMH_UNICAN_Lite";  
-					textures[] = {"\unican_main\spray\RedCross.paa"}; 
-					icon = "\unican_main\spray\RedCross.paa";  
+					textures[] = {QPATHTOF(spray\RedCross.paa)}; 
+					icon = QPATHTOF(spray\RedCross.paa);  
 				};
 			};
 		};
