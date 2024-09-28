@@ -1,3 +1,3 @@
-#define PREFIX tomh_unican
-#define COMPONENT unican
+#define PREFIX unican
+#define COMPONENT main
 #include "\x\cba\addons\main\script_macros_common.hpp"
