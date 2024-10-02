@@ -4,8 +4,8 @@ prefix = "unican"
 mainprefix = "x"
 [version]
 major = 1
-minor = 3
-patch = 1
+minor = 4
+patch = 0
 [hemtt.launch.default]
 workshop = [
     "450814997", # CBA_A3's Workshop ID
@@ -14,4 +14,5 @@ workshop = [
 [files]
 exclude = [
     "*.png",
+	"*.ps1",
 ]
