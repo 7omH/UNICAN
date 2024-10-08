@@ -5,13 +5,16 @@ mainprefix = "x"
 [version]
 major = 1
 minor = 4
-patch = 1
+patch = 2
 [hemtt.launch.default]
 workshop = [
     "450814997", # CBA_A3's Workshop ID
 	"463939057", # ACE3's Workshop ID
 ]
 [files]
+include = [
+	"unican.paa",
+]
 exclude = [
     "*.png",
 	"*.ps1",
