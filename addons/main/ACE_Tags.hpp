@@ -22,6 +22,7 @@ class ACE_Tags {
 	MTAG(TOMH_Stencil_Medical,CAT3);
 	MTAG(TOMH_Stencil_Medical,CAT4);
 	MTAG(TOMH_Stencil_Medical,CCP);
+	MTAG(TOMH_Stencil_Medical,CCP2);
 	
 	MTAG(TOMH_Stencil_Eod,Danger);
 	MTAG(TOMH_Stencil_Eod,Clear);
