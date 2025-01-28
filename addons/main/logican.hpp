@@ -1,12 +1,3 @@
-#define STAT(Name) [_player, 'PATHTOF(spray\Name.paa)'] call ace_tagging_fnc_tag
-#define TAG(Name) \
-	class TOMH_##Name##_Tag { \
-		displayName = #Name; \
-		condition = "true"; \
-		statement = #STAT(Name); \
-		icon = QPATHTOF(spray\Name.paa); \
-	}
-
 class TOMH_UNICAN_A {
 	displayName = "A Station";
 	condition = "true";
