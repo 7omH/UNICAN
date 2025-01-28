@@ -16,7 +16,7 @@ class CfgWeapons {
         descriptionShort = "Simple version of the UNICAN";
     };
 	class TOMH_UNICAN_Logi: TOMH_UNICAN {
-        displayname = "UNICAN Logi";
+        displayname = "LOGICAN";
         descriptionShort = "Logistics version of the UNICAN";
     };
 	class TOMH_Stencil_Medical: TOMH_UNICAN {

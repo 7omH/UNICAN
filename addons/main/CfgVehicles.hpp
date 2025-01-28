@@ -21,7 +21,7 @@ class CfgVehicles {
 				#include "mastercan.hpp"
 			};
 			class UNICAN_logican {
-				displayName="UNICAN";
+				displayName="LOGICAN";
 				condition="('TOMH_UNICAN_Logi' in (items player))";
 				exceptions[]={};
 				icon = QPATHTOF(data\unican.paa);
