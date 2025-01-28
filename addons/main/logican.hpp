@@ -70,32 +70,3 @@ class TOMH_UNICAN_F {
 	TAG(FROR);
 	TAG(FRRR);
 };
-class TOMH_UNICAN_Medical {
-	displayName = "Medical";
-	condition = "true";
-	TAG(RedCross);
-	TAG(RedDiamond);
-	TAG(CAT1);
-	TAG(CAT2);
-	TAG(CAT3);
-	TAG(CAT4);
-	TAG(CCP);
-};
-class TOMH_UNICAN_EOD {
-	displayName = "EOD";
-	condition = "true";
-	TAG(Danger);
-	TAG(Clear);
-	TAG(DoubleLane);
-	TAG(arrow5m);
-	TAG(arrow10m);
-	TAG(arrow20m);
-};
-class TOMH_UNICAN_Misc {
-	displayName = "Misc.";
-	condition = "true";
-	TAG(UNILOGO);
-	//TAG(TheSquido);
-	//TAG(Kevin);
-	//TAG(UNICOIN);
-};
