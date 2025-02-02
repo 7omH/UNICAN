@@ -81,6 +81,7 @@ class TOMH_UNICAN_Medical {
 	TAG(CAT4);
 	TAG(CCP);
 	TAG(CCP2);
+	TAG(CCPDiamond);
 };
 class TOMH_UNICAN_EOD {
 	displayName = "EOD";
