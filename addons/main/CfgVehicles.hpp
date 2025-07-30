@@ -50,10 +50,28 @@ class CfgVehicles {
 		};
 	};
 	class TOMH_Item_UNICAN_Logi:TOMH_Item_UNICAN {
-		displayName = "UNICAN Logi";
+		displayName = "LOGICAN";
 		class TransportItems {
 			class _xx_Item {
 				name = "TOMH_UNICAN_Logi";
+				count = 1;
+			};
+		};
+	};
+	class TOMH_Item_Stencil_Medical:TOMH_Item_UNICAN {
+		displayName = "UNICAN Medical Stencil";
+		class TransportItems {
+			class _xx_Item {
+				name = "TOMH_Stencil_Medical";
+				count = 1;
+			};
+		};
+	};
+	class TOMH_Item_Stencil_Eod:TOMH_Item_UNICAN {
+		displayName = "UNICAN EOD Stencil";
+		class TransportItems {
+			class _xx_Item {
+				name = "TOMH_Stencil_Eod";
 				count = 1;
 			};
 		};
