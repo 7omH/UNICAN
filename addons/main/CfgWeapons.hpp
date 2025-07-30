@@ -30,4 +30,9 @@ class CfgWeapons {
         displayname = "UNICAN EOD Stencil";
         descriptionShort = "Stencil for EOD marking";
     };
+	
+	class TOMH_Stencil_Mst0: TOMH_Stencil_Medical {
+        displayname = "UNICAN MST Stencil n°0";
+        descriptionShort = "Stencil for MST set 0";
+    };
 };

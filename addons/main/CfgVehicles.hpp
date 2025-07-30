@@ -10,6 +10,7 @@
 
 
 class CfgVehicles {
+	// Ace Interaction for UNI and LOGI Cans
 	class Man;
 	class CAManBase: Man {
 		class ACE_SelfActions {
@@ -29,10 +30,32 @@ class CfgVehicles {
 			};
 		};
 	};
+	//Billboards
+	class Land_Billboard_02_blank_F;
+	class Land_Billboard_03_blank_F;
+	class TOMH_VRSIdent_Small : Land_Billboard_02_blank_F {
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "VRS Identification (Small)";
+		editorCategory = "EdCat_Signs";
+		editorSubcategory = "EdSubcat_UNICAN_Boards";
+		hiddenSelectionsTextures[] = {QPATHTOF(board\VRSIdent.paa)};
+	};
+	class TOMH_VRSIdent_Big : Land_Billboard_03_blank_F {
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "VRS Identification (Big)";
+		editorCategory = "EdCat_Signs";
+		editorSubcategory = "EdSubcat_UNICAN_Boards";
+		hiddenSelectionsTextures[] = {QPATHTOF(board\VRSIdent.paa)};
+	};
+	
+	// Editor items
 	class ACE_Item_SpraypaintBlack;
 	class TOMH_Item_UNICAN:ACE_Item_SpraypaintBlack {
 		author = "TomH";
 		displayName = "UNICAN";
+		editorSubcategory = "EdSubcat_UNICAN_Items";
 		class TransportItems {
 			class _xx_Item {
 				name = "TOMH_UNICAN";
@@ -72,6 +95,15 @@ class CfgVehicles {
 		class TransportItems {
 			class _xx_Item {
 				name = "TOMH_Stencil_Eod";
+				count = 1;
+			};
+		};
+	};
+	class TOMH_Item_Stencil_Mst0:TOMH_Item_UNICAN {
+		displayName = "UNICAN MST Stencil n°0";
+		class TransportItems {
+			class _xx_Item {
+				name = "TOMH_Stencil_Mst0";
 				count = 1;
 			};
 		};

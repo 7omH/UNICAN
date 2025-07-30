@@ -31,4 +31,6 @@ class ACE_Tags {
 	MTAG(TOMH_Stencil_Eod,arrow5m);
 	MTAG(TOMH_Stencil_Eod,arrow10m);
 	MTAG(TOMH_Stencil_Eod,arrow20m);
+	
+	MTAG(TOMH_Stencil_Mst0,SOS);
 };
