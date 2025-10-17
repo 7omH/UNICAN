@@ -86,6 +86,7 @@ class TOMH_UNICAN_Medical {
 class TOMH_UNICAN_EOD {
 	displayName = "EOD";
 	condition = "true";
+	TAG(Safe);
 	TAG(Danger);
 	TAG(Clear);
 	TAG(DoubleLane);
