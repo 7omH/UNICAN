@@ -95,6 +95,14 @@ class TOMH_UNICAN_EOD {
 	TAG(arrow20m);
 	TAG(DoubleLane);
 };
+class TOMH_UNICAN_MST {
+	displayName = "Mission Supp.";
+	condition = "true";
+	TAG(SOS);
+	TAG(Mines);
+	TAG(WarningSign);
+	TAG(Spook1);
+	TAG(Spook2);
 class TOMH_UNICAN_Misc {
 	displayName = "Misc.";
 	condition = "true";

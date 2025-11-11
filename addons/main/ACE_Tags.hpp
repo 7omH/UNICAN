@@ -35,4 +35,8 @@ class ACE_Tags {
 	MTAG(TOMH_Stencil_Eod,DoubleLane);
 	
 	MTAG(TOMH_Stencil_Mst0,SOS);
+	MTAG(TOMH_Stencil_Mst0,Mines);
+	MTAG(TOMH_Stencil_Mst0,WarningSign);
+	MTAG(TOMH_Stencil_Mst0,Spook1);
+	MTAG(TOMH_Stencil_Mst0,Spook2);
 };
