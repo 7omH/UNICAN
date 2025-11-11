@@ -4,5 +4,6 @@ hemtt
 hemtt.exe
 *.biprivatekey
 *.png
+*.xcf
 releases/*
 *.biprivatekey

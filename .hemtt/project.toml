@@ -18,4 +18,5 @@ include = [
 exclude = [
     "*.png",
 	"*.ps1",
+	"*.xcf",
 ]
