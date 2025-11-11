@@ -103,6 +103,7 @@ class TOMH_UNICAN_MST {
 	TAG(WarningSign);
 	TAG(Spook1);
 	TAG(Spook2);
+};
 class TOMH_UNICAN_Misc {
 	displayName = "Misc.";
 	condition = "true";
