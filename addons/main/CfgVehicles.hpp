@@ -49,7 +49,15 @@ class CfgVehicles {
 		editorSubcategory = "EdSubcat_UNICAN_Boards";
 		hiddenSelectionsTextures[] = {QPATHTOF(board\VRSIdent.paa)};
 	};
-	
+	class TOMH_EODIdent_Small : TOMH_VRSIdent_Small {
+		displayName = "EOD Danger Markers (Small)";
+		hiddenSelectionsTextures[] = {QPATHTOF(board\EODIdent.paa)};
+	};
+	class TOMH_EODIdent_Big : TOMH_VRSIdent_Big {
+		displayName = "EOD Danger Markers (Big)";
+		hiddenSelectionsTextures[] = {QPATHTOF(board\EODIdent.paa)};
+	};
+		
 	// Editor items
 	class ACE_Item_SpraypaintBlack;
 	class TOMH_Item_UNICAN:ACE_Item_SpraypaintBlack {
