@@ -87,12 +87,13 @@ class TOMH_UNICAN_EOD {
 	displayName = "EOD";
 	condition = "true";
 	TAG(Safe);
-	TAG(Danger);
 	TAG(Clear);
-	TAG(DoubleLane);
+	TAG(Danger);
+	TAG(Defused);
 	TAG(arrow5m);
 	TAG(arrow10m);
 	TAG(arrow20m);
+	TAG(DoubleLane);
 };
 class TOMH_UNICAN_Misc {
 	displayName = "Misc.";

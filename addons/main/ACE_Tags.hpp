@@ -26,12 +26,13 @@ class ACE_Tags {
 	MTAG(TOMH_Stencil_Medical,CCPDiamond);
 	
 	MTAG(TOMH_Stencil_Eod,Safe);
-	MTAG(TOMH_Stencil_Eod,Danger);
 	MTAG(TOMH_Stencil_Eod,Clear);
-	MTAG(TOMH_Stencil_Eod,DoubleLane);
+	MTAG(TOMH_Stencil_Eod,Danger);
+	MTAG(TOMH_Stencil_Eod,Defused);
 	MTAG(TOMH_Stencil_Eod,arrow5m);
 	MTAG(TOMH_Stencil_Eod,arrow10m);
 	MTAG(TOMH_Stencil_Eod,arrow20m);
+	MTAG(TOMH_Stencil_Eod,DoubleLane);
 	
 	MTAG(TOMH_Stencil_Mst0,SOS);
 };
